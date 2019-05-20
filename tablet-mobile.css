@@ -29,7 +29,17 @@
 
     /* MOBILE BLOCKS */
     [class*="boxx"] {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
-
+    
+    /* INPUTS */
+    .select-css,
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    input[type=tel],
+    input[type=date],
+    textarea {
+        width: 100%;
+    }
     /* MOBILE IMAGES */
     [class*="img-"] {-webkit-box-ordinal-group: 1;-ms-flex-order: 1;order: 1;}
 }
