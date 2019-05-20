@@ -115,7 +115,8 @@ label {
     line-height: 16px;
 }
 
-.select-css {
+
+.select-css, input[type=text] {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
