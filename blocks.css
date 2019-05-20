@@ -22,6 +22,7 @@ select:-webkit-autofill:focus {
   border: 1px solid #629045;
   -webkit-text-fill-color: #266400;
   -webkit-box-shadow: 0 0 0px 1000px #eaffdf inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -52,6 +53,7 @@ select:-webkit-autofill:focus {
 input,
 label,
 .select-css {
+    -webkit-transition: var(--trans-m);
     transition: var(--trans-m);
 }
 
@@ -60,7 +62,12 @@ label,
 }
 
 .inputbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     margin-bottom: 16px;
 }
