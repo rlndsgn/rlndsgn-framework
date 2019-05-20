@@ -1,0 +1,45 @@
+/* VARIABLES */
+
+body {
+    /* sets wrapper */
+    --wrap: 999px;
+    --wrap-t: 864px;
+
+    /* sets background color */
+    --color-background: #f8f8f8;
+
+    /* color / brand */
+    --color-istyle-red: #E21836;
+    --color-midis-gr-dark: #5F5F5F;
+    --color-midis-gr-mid: #B8B8B8;
+
+    /* color / grays */
+    --color-gr-dark: #282828;
+    --color-gr-mid: #aaaaaa;
+    --color-gr-light: #f0f0f0;
+    --color-bl: #000000;
+    --color-wh: #ffffff;
+    --color-inv: rgba(0, 0, 0, 0);
+
+    /* color / base */
+    --color-pri: #007AFF;
+    --color-sec: #007AFF;
+    --color-succes: #36B95D;
+    --color-warning: #FFA908;
+    --color-danger: #FF2929;
+
+    /* transitions */
+    --trans-l: 100ms ease-in-out;
+    --trans-m: 40ms ease-in-out;
+    --trans-s: 8ms ease-in-out;
+
+    /* universal shadows */
+    --shade-base: 0 4px 8px -4px rgba(0, 0, 0, 0.72);
+    --shade-hover: 0 6px 16px -6px rgba(0, 0, 0, 0.56);
+    --shade-active: 0 2px 4px -2px rgba(0, 0, 0, 0.8);
+
+    /* TODO shadow coloring */
+    /* TODO hard to see mode, outline, strong contrast, alt"", blinds */
+    /* TODO darkmode */
+
+}

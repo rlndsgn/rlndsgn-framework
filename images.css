@@ -1,0 +1,14 @@
+/* IMAGES */
+
+[class*="img-"], [class*="ico-"] {
+    background-repeat: no-repeat;
+}
+
+/*https://istyle.hu/media/wysiwyg/HU/*/
+
+.img-01 {
+    background-image: url(https://istyle.hu/media/wysiwyg/HU/landing-img/istyle/services/img-01b.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 450px;
+}

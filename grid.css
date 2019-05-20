@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/* CSS RESET */
+
+* {font-family: "Rubik", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";margin: 0;padding: 0;border: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+.value, .full {width: 100%; overflow: hidden; min-height: inherit;}
+
+/* GRID SYSTEM */
+
+.coll-01 {width: calc((100% / 12) * 1);}
+.coll-02 {width: calc((100% / 12) * 2);}
+.coll-03 {width: 25%}
+.coll-04 {width: calc((100% / 12) * 4);}
+.coll-05 {width: calc((100% / 12) * 5);}
+.coll-06 {width: 50%;}
+.coll-07 {width: calc((100% / 12) * 7);}
+.coll-08 {width: calc((100% / 12) * 8);}
+.coll-09 {width: 75%};
+.coll-10 {width: calc((100% / 12) * 10);}
+.coll-11 {width: calc((100% / 12) * 11);}
+.coll-12 {width: 100%;}
+.coll-th05 {width: calc(100% / 5);}
+.coll-th07 {width: calc(100% / 7);}
+.coll-th08 {width: calc(100% / 8);}
+.coll-th09 {width: calc(100% / 9);}
+.coll-th10 {width: calc(100% / 10);}
+.coll-th11 {width: calc(100% / 11);}
+
+/* TXT ALIGNS */
+
+.txt-a-c {text-align: center;}
+.txt-a-l {text-align: left;}
+.txt-a-r {text-align: right;}
+.txt-a-j {text-align: justify;}
+
+/* POSITIONING | FLEX */
+
+.centr, .wrap {margin: 0 auto;}
+.wrap {max-width: var(--wrap); height: inherit;}
+
+[class*="flex-"] {display: flex;}
+[class*="flex-t"] {align-items: flex-start;align-content: flex-start;}
+[class*="flex-c"] {align-items: center;align-content: center;}
+[class*="flex-b"] {align-items: flex-end;align-content: flex-end;}
+.flex-t-l,.flex-c-l,.flex-b-l {justify-content: flex-start;}
+.flex-t-c,.flex-c-c,.flex-b-c,.flex-baseline {justify-content: center;}
+.flex-t-r,.flex-c-r,.flex-b-r {justify-content: flex-end;}
+.flex-baseline {align-items: baseline;align-content: center;}
+.flex-column {flex-direction: column;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-dist {justify-content: space-between;}
+.flex-align-top {align-self: flex-start;}
+.flex-align-bottom {align-self: flex-end;}
