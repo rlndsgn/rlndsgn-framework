@@ -40,6 +40,10 @@
     textarea {
         width: 100%;
     }
+
+    label {
+        width: 100%;
+    }
     /* MOBILE IMAGES */
     [class*="img-"] {-webkit-box-ordinal-group: 1;-ms-flex-order: 1;order: 1;}
 }
