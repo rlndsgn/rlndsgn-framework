@@ -124,8 +124,6 @@ label {
 }
 
 
-
-
 .select-css {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='16'%3E%3Cg fill='%23000' fill-rule='nonzero'%3E%3Cpath d='M.52 6.545h6.96c.135 0 .252-.072.35-.216a.884.884 0 0 0 .148-.51.885.885 0 0 0-.148-.512L4.35.216C4.25.072 4.135 0 4 0c-.135 0-.251.072-.35.216L.17 5.306a.884.884 0 0 0-.148.512c0 .197.05.368.148.511.098.144.215.216.35.216zM7.48 9.455H.52c-.135 0-.252.072-.35.215a.884.884 0 0 0-.148.512c0 .197.05.367.148.511l3.48 5.09c.099.145.215.217.35.217.135 0 .251-.072.35-.216l3.48-5.09a.884.884 0 0 0 .148-.512.884.884 0 0 0-.148-.512c-.098-.144-.215-.215-.35-.215z'/%3E%3C/g%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -141,7 +139,6 @@ textarea {
     min-height: 80px;
     min-width: calc(100% - 8px);
     max-width: calc(100% - 8px);
-
 }
 
 .radiobox {
@@ -150,6 +147,9 @@ textarea {
 
 input[type="radio"],
 input[type="checkbox"] {
+    display: inline-block;
+    width: inherit;
+    height: inherit;
     position: relative;
     bottom: 1px;
     margin-right: 4px;
