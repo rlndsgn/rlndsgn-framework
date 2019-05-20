@@ -46,6 +46,8 @@
     line-height: 16px;
 }
 
+
+
 /* LINK | BUTTON | INPUT */
 
 [class*="ty-"] a {
@@ -53,11 +55,17 @@
 }
 
 a,
-button, label, .select-css {
+button,
+label,
+.select-css {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
     outline: none !important;
+}
+
+.input-s-txt {
+    margin-top: 8px;
 }
 
 .btn-holder {
