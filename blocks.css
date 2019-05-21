@@ -20,6 +20,10 @@
 }
 
 
+.margtop8{
+    margin-top: 8px;
+}
+
 
 /* INPUT */
 
@@ -79,11 +83,6 @@ textarea,
     line-height: 24px;
 }
 
-input[type=password] {
-    margin-bottom: 8px;
-}
-
-
 input,
 label,
 textarea,
@@ -93,8 +92,6 @@ textarea,
     -webkit-transition: box-shadow var(--trans-l);
     transition: box-shadow var(--trans-l);
 }
-
-
 
 input:hover {
     border: 1px solid var(--color-gr-dark);
