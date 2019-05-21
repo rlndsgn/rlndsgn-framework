@@ -79,6 +79,10 @@ textarea,
     line-height: 24px;
 }
 
+input[type=password] {
+    margin-bottom: 8px;
+}
+
 
 input,
 label,
