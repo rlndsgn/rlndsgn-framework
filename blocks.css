@@ -85,6 +85,8 @@ textarea,
 .select-css {
     -webkit-transition: border-color var(--trans-l);
     transition: border-color var(--trans-l);
+    -webkit-transition: box-shadow var(--trans-l);
+    transition: box-shadow var(--trans-l);
 }
 
 
