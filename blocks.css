@@ -101,6 +101,7 @@ input:focus,
 textarea:focus,
 .select-css:focus {
     border: 1px solid var(--color-pri);
+    box-shadow: 0 6px 16px -6px rgba(0, 129, 209, 0.56);
 }
 
 input:focus + label,
